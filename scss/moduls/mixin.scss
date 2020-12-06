@@ -1,0 +1,12 @@
+@mixin d-flex($display,$justify,$aling){
+    display: $display;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+@mixin hover-effect ($property, $duration, $type, $delay){
+transition-property: $property;
+transition-duration: $duration;
+transition-timing-function: $type;
+transition-delay: $delay;
+}

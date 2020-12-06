@@ -1,0 +1,158 @@
+// 3 section
+.bg-section1{
+    background-image:url(..//img/image3.jpg);
+    width:$size01;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top:$size27;
+.container{
+    @extend %size;
+.line{
+    @extend %size01;
+    margin-left:$size24;
+    margin-bottom:$size09;  
+    }
+.section-p{
+    @extend %font-size;
+    @include d-flex(flex, center, center);
+    }
+.wraper-p{
+    @extend %font-size01;
+    @include d-flex(flex, center, center);
+    font-weight:lighter; 
+    }
+.flex{
+    padding-top:$size9;
+    margin-bottom:$size6;
+    display:flex;
+.img-relative{
+    position:absolute;
+    max-width:$size28;
+    width:$size01;
+    height: $size29;
+    margin-left: $size30;
+    background: rgba($color: $color03, $alpha: .1);
+.text-h4{
+    font-size:$font-size10;
+    @extend %text-h4;
+    text-transform: $transform01;
+    margin-top:$size010;
+    margin-left:$size06;  
+}
+.wraper-p1{
+    @extend %font-size01;
+    @include d-flex(flex, center, center); 
+    margin-left: $size6;    
+}
+.line1{
+    @extend %size01;
+    margin-top:$size09;
+    margin-left:$size04;
+    margin-bottom:$size09;
+}
+.text-p{
+    max-width:$size31;
+    width:$size01;
+    @extend %text-p;
+    margin-left:$size32;
+    text-indent:1em;  
+}
+}
+}
+.view{
+    @include d-flex(flex, center, center);
+    margin-top:$size10;
+    margin-left:$size05;
+    max-width:$size06;
+    width:$size01;
+    background-color:$color10;
+    letter-spacing: 1px;
+.view-detail{
+    font-size:$font-size05;
+    font-family: $family01;
+    margin-right:$size35;
+    padding:$size34 $size33 $size34 0;
+    a{
+        color:$color01;
+}
+}
+.arrow{
+    color:$color01;
+    font-size:$font-size04;
+}
+}
+.left-right{
+    @include d-flex(flex, space-between, center);
+    max-width:$size36;
+    width:$size01;
+    margin-top:$size10;
+    margin-bottom:$size37;
+.box-left{
+    width:$size01;
+.text-h4{
+    font-size:$font-size11;
+    @extend %text-h4;
+    margin-top:$size18;
+    @include d-flex(flex, center, center);
+}
+.wraper-p1{
+    @extend %font-size01;
+    @include d-flex(flex, center, center);
+}
+.line1{
+    @extend %size01;
+    margin-top:$size09;
+    margin-left:$size38;
+    margin-bottom:$size09;
+}
+.text-p{
+    max-width:$size39;
+    width:$size01;
+    @extend %text-p;
+    text-indent:1em;
+    margin-left:$size40 ;
+}
+}
+.box-right{
+  width:$size01;
+  margin-left:$soze41;
+.text-h4{
+    font-size:$font-size11;
+    @extend %text-h4;
+    margin-top:$size42;
+    @include d-flex(flex, center, center);
+}
+.wraper-p1{
+    @extend %font-size01;
+    @include d-flex(flex, center, center);
+}
+.line1{
+    @extend %size01;
+    margin-top:$size09;
+    margin-left:$size38;
+    margin-bottom:$size09;
+}
+.text-p{
+    max-width:$size39;
+    width:$size01;
+    @extend %text-p;
+    text-indent:1em;
+    margin-left:$size40;  
+} 
+}
+}
+.view-more{
+    @extend %view-more;
+    @include d-flex(flex, center, center);
+.view-more-detail{
+    @extend %view-more1;
+    a{
+        color:$color10;
+    }
+}
+.arrow{
+    @extend %arrow;
+}
+}
+}
+}

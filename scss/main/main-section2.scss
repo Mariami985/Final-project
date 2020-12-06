@@ -1,0 +1,48 @@
+.bg-section{
+    background:$color09;
+    padding-bottom:$size17;
+.container{
+    @extend %size;
+.line{
+    @extend %size01;
+    margin-left:$size24;
+    margin-bottom:$size09; 
+}
+.section-p{
+    @extend %font-size;
+    @include d-flex(flex, center, center);
+}
+.wraper-p{
+   @extend %font-size01;
+   @include d-flex(flex, center, center);
+    font-weight:lighter; 
+}
+.box{
+    @include d-flex(flex, space-between, center);
+    margin-top:$size25;
+    letter-spacing: 1px;
+.line1{
+    @extend %size01;
+    margin-top:$size09;
+    margin-bottom:$size09;
+}
+.box1{
+    max-width: $size26;
+    width:$size01;
+    margin-right:$size10;
+.text-h4{
+    font-size:$font-size09;
+    font-family:$family02;
+    font-weight: 300;
+    color:$color03;
+    text-transform: $transform01;
+}
+.text-p{
+    @extend %text-p;
+    text-shadow:$color03;
+    margin-left: $size6;
+}
+}
+}
+}
+}

@@ -1,0 +1,102 @@
+// header
+.bg-header{
+    background-image:url(..//img/img.jpg);
+    width:$size01;
+    height:$size02;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .container{
+        @extend %size;
+
+    .flex-header{
+            @include d-flex(flex, space-between, center);
+            padding-top: $size09;
+           
+    .nav-logo{
+        margin-left: $size06;
+        background-color: $color01;
+        @include d-flex(flex, space-between, center);
+        @media screen and (max-width:950px) {
+            display:none;
+            
+        }
+    .title-h3{
+        background-color:$color02;
+        max-width:$size07;
+        width:$size01;
+        height: $size07;
+        margin-left: $size11;
+        padding-top: $size11;
+        padding-left:$size11;
+        padding-bottom: $size33;
+            
+        }
+    .title{
+        color:$color01;
+        font-size: $font-size03;
+        text-transform:$transform01;
+        font-family: $family02;
+    }  
+    }
+    .nav-ul{
+            @include d-flex(flex, space-between, center);
+            margin-left: $size3;
+            letter-spacing: 1px;
+
+    .active{
+        color: $color02;
+        font-family: $family01;
+    }
+    }
+    .nav-li a {
+        color:$color03;
+        font-size:$font-size04;
+        text-transform:$transform01;
+        margin-left:$size08;
+        font-family: $family01;
+    }      
+    }
+    }
+    .burger-icon{
+        font-size:$font-size02;
+        color:$color02;
+        display:none;
+        @media screen and (max-width:$size13){
+            display:block;
+        }
+    }
+    .title-header{
+        margin-top:$size03;
+        margin-left:$size06;
+        color:$color01;
+        max-width:$size12;
+        width:$size01;
+        letter-spacing: 2px;
+
+
+    .title-p{
+       font-size: $font-size02;
+       padding-left:$size04;
+       margin-bottom: $size11;
+       font-family: $family02;
+       text-transform: $transform01;
+
+    }
+    .title-h1{
+        font-size:$font-size01;
+        padding-left: $size10;
+        margin-bottom:$size11;
+        font-family:$family03;
+        text-transform: $transform01;
+        
+    }
+    .title-p1{
+        font-size: $size08;
+        padding-left:$size05;
+        font-family: $family02;
+        text-transform: $transform01;
+    }
+    
+}
+}

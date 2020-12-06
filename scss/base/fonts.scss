@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('..//fonts/regular/Heebo-Regular.eot');
+    src: url('..//fonts/regular/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('..//fonts/regular/Heebo-Regular.woff2') format('woff2'),
+        url('..//fonts/regular/Heebo-Regular.woff') format('woff'),
+        url('..//fonts/regular/Heebo-Regular.ttf') format('truetype'),
+        url('..//fonts/regular/Heebo-Regular.svg#Heebo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('..//fonts/light/Heebo-Light.eot');
+    src: url('..//fonts/light/Heebo-Light.eot?#iefix') format('embedded-opentype'),
+        url('..//fonts/light/Heebo-Light.woff2') format('woff2'),
+        url('..//fonts/light/Heebo-Light.woff') format('woff'),
+        url('..//fonts/light/Heebo-Light.ttf') format('truetype'),
+        url('..//fonts/light/Heebo-Light.svg#Heebo-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Heebo';
+    src: url('..//fonts/Heebo-Thin.eot');
+    src: url('..//fonts/Heebo-Thin.eot?#iefix') format('embedded-opentype'),
+        url('..//fonts/Heebo-Thin.woff2') format('woff2'),
+        url('..//fonts/Heebo-Thin.woff') format('woff'),
+        url('..//fonts/Heebo-Thin.ttf') format('truetype'),
+        url('..//fonts/Heebo-Thin.svg#Heebo-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('..//fonts/pt-serif/PTSerif-Italic.eot');
+    src: url('..//fonts/pt-serif/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('..//fonts/pt-serif/PTSerif-Italic.woff2') format('woff2'),
+        url('..//fonts/pt-serif/PTSerif-Italic.woff') format('woff'),
+        url('..//fonts/pt-serif/PTSerif-Italic.ttf') format('truetype'),
+        url('..//fonts/pt-serif/PTSerif-Italic.svg#PTSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

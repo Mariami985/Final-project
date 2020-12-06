@@ -1,0 +1,65 @@
+%size{                                          
+    max-width:1088px;
+    width:100%;
+    margin:0 auto;
+    }
+
+%size01{
+    max-width:$size23;
+    width:$size01;
+    height: $size4;
+    background-color:$color10;
+}
+
+%font-size{
+    font-size:50px;
+    font-family:'Heebo';
+    color:#000000;
+    font-weight:lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+%font-size01{
+    font-size:$font-size06;
+    font-family: $family04;
+    text-transform:$transform01;
+    letter-spacing: 1px;
+    margin-top:$size09;
+    color:$color05;
+}
+%text-p{
+    font-size:$font-size05;
+    color:$color03;
+    letter-spacing: 1px;
+    font-family: $family01;
+}
+%text-h4{
+    font-family:$family02;
+    font-weight: lighter;
+    color:$color03;
+    text-transform: $transform01;
+    letter-spacing: 1px;
+}
+%view-more{
+    max-width:$size04;
+    width:$size01;
+    border:2px solid $color10;
+    margin-left:$size43;
+    margin-bottom:$size44;
+}
+%view-more1{
+    font-size:$font-size05;
+    font-family: $family01;
+    margin-right:$size35;
+    padding:$size34;
+    text-transform:$transform02;
+
+}
+%arrow{
+    color:$color10;
+    font-size:$font-size04;
+}
+%icon{
+    font-size:$font-size02;
+    margin-right:$size11;
+}

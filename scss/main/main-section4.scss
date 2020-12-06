@@ -1,0 +1,77 @@
+// section 4
+.image-bg{
+        background-image:url(..//img/image7.jpg);
+        width:$size01;
+        padding-top:$size19;
+        padding-bottom: $size45;
+        margin-bottom: $size25;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: $size01;
+            height:$size01;
+            background-color: rgba($color:  $color10, $alpha: 0.4);
+            z-index: 2;
+        }
+.container{
+     @extend %size;
+.line{
+        @extend %size01;
+        margin-left:$size24;
+        margin-bottom:$size09;     
+    }
+.h4{
+        font-size:$font-size12;
+        color:  $color11;
+        font-family:$family03;
+        text-transform: $transform02;
+        @include d-flex(flex, center, center);
+        letter-spacing: 1px;
+    }
+.wraper-p{
+        font-size:$font-size06;
+        font-family: $family04;
+        @include d-flex(flex, center, center);
+        margin-top:$size09;
+        color:  $color11;
+        letter-spacing: 1px;      
+    }
+.p-title{
+        max-width:$size46;
+        width:$size01;
+        margin-top:$size25;
+        margin-left:$size05;
+.title-p1{
+        font-size: $font-size11;
+        color:$color12;
+        text-transform:$transform01;
+        font-family: $family04;
+        @include d-flex(flex, center, center);
+        margin-bottom: $size10;
+        letter-spacing: 1px;
+}
+.title-p2{
+        font-size:$font-size05;
+        color: $color11;
+        font-family:$family01;
+        text-transform: $transform01;
+        @include d-flex(flex, center, center);
+        text-indent:1em;
+        letter-spacing: 1px;
+}
+.name{
+        font-size:$font-size03;
+        font-family:$family01;
+        color:  $color11;
+        margin-top:$size09;
+        margin-left:$size47;
+        letter-spacing: 1px;
+}
+}
+}
+}

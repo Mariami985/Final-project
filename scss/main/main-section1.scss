@@ -1,0 +1,117 @@
+// section1
+.container{
+    @extend %size;
+.d-flex{
+    display:flex;
+.left-block{
+    max-width:$size1;
+    width:$size01;
+    margin-top:$size2;
+    float: left;
+    margin-left:$size10;
+.section-p{
+   @extend %font-size;
+}
+.line9{
+    max-width:$size3;
+    width:$size01;
+    height:$size4;
+    background-color:$color02;
+    margin-left:$size5;
+    margin-bottom: $size6;
+}
+.section-p1{
+    font-size:$font-size06;
+    color:$color05;
+    font-family: $family04;
+    margin-top:$size7;
+    margin-left:$size5;
+    margin-bottom: $size8;
+    letter-spacing: 1px;
+}
+.section-p2{
+    font-size:$font-size05;
+    color:$color03;
+    font-family: $family01;
+    margin-left:$size9;
+    letter-spacing: 1px;
+}
+}
+.left-block::after{
+    content: '';
+	display: block;
+}
+.right-block{
+    float:right;
+    margin-top:$size2;
+    margin-left:$size3;
+    max-width:$size14;
+    width:$size01;
+.img4{
+    float:left;
+
+.image1{
+    max-width:$size04;
+    width:$size01;
+}
+}
+.img3{
+    float:right;
+.image2{
+    max-width:$size15;
+    width:$size01;
+}
+}
+}
+}
+}
+.wraper{
+    background-color:$color06;
+    margin-top:$size16;
+    margin-bottom: $size17;
+.wraper-p{
+    font-size:$font-size06;
+    font-family: $family04;
+    color:$color01;
+    text-transform:$transform01;
+    @include d-flex(flex, center, center);
+    padding-top:$size17;
+    padding-bottom:$size18;
+    letter-spacing: 1px;
+}
+.form-wraper{
+    @include d-flex(flex, center, center);
+    padding-bottom:$size19;
+.input-wraper{
+    max-width:$size20;
+    width:$size01;
+    height: $size07;
+    font-size:$font-size05;
+    font-family: $family01;
+    margin-right:$size21;
+    background-color:$color07;
+    border:0 solid  $color08;
+    color:$color01;
+    text-transform:$transform01;
+    letter-spacing: 1px;
+}
+.input-wraper:focus{
+	outline: none;
+}
+.button-wraper{
+    max-width:$size22;
+    width:$size01;
+    height:$size07;
+    background-color:$color06;
+    font-size:$font-size05;
+    font-family: $family01;
+    border: 2px solid $color01;
+    color:$color01;
+    text-transform:$transform02;
+    letter-spacing: 1px;
+}
+.button-wraper:focus{
+    outline:none;
+}
+}
+}
