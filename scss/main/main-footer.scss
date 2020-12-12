@@ -6,9 +6,19 @@
      @extend %size;
 .footer-box{
     @include d-flex(flex, center, center);
+    @media screen and (max-width:750px){
+        flex-direction: column;
+    }
 .left-footer{
-    max-width: $size55;
-    width:$size01;
+    max-width: 500px;
+    width:100%;
+    @media screen and (max-width:1125px){
+        margin-left:10px;
+    }
+    @media screen and (max-width:550px){
+        max-width:280px;
+        width:100%;
+    }
 .text-h3{
     font-size:$font-size10;
     font-family: $family03;
@@ -16,6 +26,9 @@
     text-transform:$transform02;
     font-weight: lighter;
     letter-spacing: 1px;
+    @media screen and (max-width:950px){
+        font-size:35px;
+    }
 }
 .line3{
     max-width:$size23;
@@ -31,6 +44,9 @@
     color:$color01;
     text-transform: $transform01;
     letter-spacing: 1px;
+    @media screen and (max-width:950px){
+        font-size:15px;
+    }
 }
 .contact{
     max-width:$size22;
@@ -48,27 +64,46 @@
         a{
             color:$color10;
         }
+    @media screen and (max-width:950px){
+        font-size:14px;
+        }
 }
 }
 }
 .right-footer{
     margin-left:$size58;
-    margin-bottom: $size62;
+    margin-bottom: 110px;
+    @media screen and (max-width:750px){
+        margin-left:0;
+       margin-right: 80px;
+    }
 .fb{
     @extend %icon;
     color:$color13;
+    @media screen and (max-width:1125px){
+        font-size:30px;
+    }
 }
 .inst{
     @extend %icon;
     color:$color14;
+    @media screen and (max-width:1125px){
+        font-size:30px;
+    }
 }
 .twitter{
     @extend %icon;
     color:$color15;
+    @media screen and (max-width:1125px){
+        font-size:30px;
+    }
 }
 .youtube{
     @extend %icon;
     color:$color16;
+    @media screen and (max-width:1125px){
+        font-size:30px;
+    }
 }
 .address{
     font-size:$font-size08;
@@ -79,6 +114,9 @@
     margin-top:$size59;
     margin-bottom: $size57;
     letter-spacing: 1px;
+    @media screen and (max-width:950px){
+        font-size:22px;
+    }
 }
 .line3{
     max-width:$size23;
@@ -96,12 +134,18 @@
 .span{
     font-size:$font-size03;
     color:$color17;
+    @media screen and (max-width:950px){
+        font-size:16px;
+    }
 }
 .contact-a{
     font-size:$font-size03;
     color:$color01;
     margin-left:$size11;
     text-transform:$transform03;
+    @media screen and (max-width:950px){
+        font-size:16px;
+    }
 }
 }
 }
@@ -115,6 +159,9 @@
     background-color:$color18;
     padding-top:$size10;
     padding-bottom:$size10;
+    @media screen and (max-width:750px){
+        flex-direction: column;
+    }
 .p-footer{
     font-size:$font-size07;
     font-family: $family01;
@@ -122,16 +169,28 @@
     font-weight: lighter;
     text-transform:$transform02;
     margin-right:$size23;
+    @media screen and (max-width:950px){
+        font-size:18px;
+    }
 }
 .footer-p{
     font-size:$font-size14;
     font-family: $family01;
     color:$color01;
     text-transform:$transform03;
+    @media screen and (max-width:950px){
+        font-size:10px;
+        margin-top:10px;
+        margin-right:40px;
+        margin-bottom: 10px;
+    }
 }
 .footer-ul{
     @include d-flex(flex, space-between, center);
     margin-left:$size60;
+    @media screen and (max-width:750px){
+        margin-left:0;
+    }
 .footer-li{
     margin-right:$size10;
 .footer-a{
@@ -139,6 +198,9 @@
     font-family: $family01;
     color:$color01;
     text-transform:$transform02;
+    @media screen and (max-width:950px){
+        font-size:12px;
+    }
 }
   
 }

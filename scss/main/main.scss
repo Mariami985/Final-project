@@ -2,7 +2,7 @@
 .bg-header{
     background-image:url(..//img/img.jpg);
     width:$size01;
-    height:$size02;
+    padding-bottom: 200px;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -19,7 +19,6 @@
         @include d-flex(flex, space-between, center);
         @media screen and (max-width:950px) {
             display:none;
-            
         }
     .title-h3{
         background-color:$color02;
@@ -60,18 +59,21 @@
     }
     .burger-icon{
         font-size:$font-size02;
-        color:$color02;
+        color:$color01;
         display:none;
         @media screen and (max-width:$size13){
             display:block;
+            margin-left:$size23;
+            @include hover-effect (all, 0.5s, linear, 0.2s);
+            &:hover{
+                color:$color02;
+            }
         }
     }
     .title-header{
         margin-top:$size03;
         margin-left:$size06;
         color:$color01;
-        max-width:$size12;
-        width:$size01;
         letter-spacing: 2px;
 
 
@@ -81,6 +83,13 @@
        margin-bottom: $size11;
        font-family: $family02;
        text-transform: $transform01;
+       @media screen and (max-width:$size13){
+           font-size:$font-size08;
+        
+       }
+       @media screen and (max-width:$size63){
+        display:none;
+    }
 
     }
     .title-h1{
@@ -89,6 +98,20 @@
         margin-bottom:$size11;
         font-family:$family03;
         text-transform: $transform01;
+        @media screen and (max-width:$size13){
+            font-size:$font-size02;
+            margin-left:$size53;
+        }
+        @media screen and (max-width:$size63){
+            font-size:$font-size16;
+            margin-left:0;
+            margin-right:$size06;
+            @include hover-effect (all, 0.5s, linear, 0.2s);
+            &:hover{
+                color:$color02;
+                font-weight: bolder;
+            }
+        }
         
     }
     .title-p1{
@@ -96,7 +119,16 @@
         padding-left:$size05;
         font-family: $family02;
         text-transform: $transform01;
+        @media screen and (max-width:$size13){
+            font-size:$font-size08;
+        }
+        
+        @media screen and (max-width:$size63){
+            display:none;
+        
+        }
     }
-    
 }
-}
+}   
+
+

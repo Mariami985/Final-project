@@ -7,40 +7,68 @@
     @extend %size01;
     margin-left:$size24;
     margin-bottom:$size09; 
+    @media screen and (max-width:1080px){
+        display:none;
+    }
 }
 .section-p{
     @extend %font-size;
     @include d-flex(flex, center, center);
+    @media screen and (max-width:950px){
+        font-size:35px;
+    }
 }
 .wraper-p{
    @extend %font-size01;
    @include d-flex(flex, center, center);
     font-weight:lighter; 
+    @media screen and (max-width:950px){
+        font-size:18px;
+    }
 }
 .box{
     @include d-flex(flex, space-between, center);
     margin-top:$size25;
     letter-spacing: 1px;
+    @media screen and (max-width:680px){
+        flex-direction:column;
+    }
 .line1{
     @extend %size01;
     margin-top:$size09;
     margin-bottom:$size09;
+    @media screen and (max-width:950px){
+        width:30px;
+    }
 }
 .box1{
     max-width: $size26;
     width:$size01;
     margin-right:$size10;
+    @media screen and (max-width:1080px){
+        margin-left:10px;
+    }
+    @media screen and (max-width:680px){
+        width: 250px;
+        margin-bottom: 20px;
+    }
 .text-h4{
     font-size:$font-size09;
     font-family:$family02;
     font-weight: 300;
     color:$color03;
     text-transform: $transform01;
+    @media screen and (max-width:950px){
+        font-size:16px;
+    }
 }
 .text-p{
     @extend %text-p;
     text-shadow:$color03;
     margin-left: $size6;
+    @media screen and (max-width:950px){
+        font-size:14px;
+    }
 }
 }
 }

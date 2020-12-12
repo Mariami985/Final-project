@@ -23,7 +23,10 @@
 .line{
         @extend %size01;
         margin-left:$size24;
-        margin-bottom:$size09;     
+        margin-bottom:$size09; 
+        @media screen and (max-width:1080px){
+                display:none;
+        }    
     }
 .h4{
         font-size:$font-size12;
@@ -32,28 +35,36 @@
         text-transform: $transform02;
         @include d-flex(flex, center, center);
         letter-spacing: 1px;
+        @media screen and (max-width:950px){
+                font-size:40px;
+        }
     }
 .wraper-p{
         font-size:$font-size06;
         font-family: $family04;
         @include d-flex(flex, center, center);
         margin-top:$size09;
+        margin-bottom: 71px;
         color:  $color11;
-        letter-spacing: 1px;      
+        letter-spacing: 1px; 
+        @media screen and (max-width:950px){
+                font-size:18px;
+                margin-left:30px;
+        }     
     }
 .p-title{
-        max-width:$size46;
-        width:$size01;
-        margin-top:$size25;
-        margin-left:$size05;
 .title-p1{
         font-size: $font-size11;
         color:$color12;
         text-transform:$transform01;
         font-family: $family04;
         @include d-flex(flex, center, center);
-        margin-bottom: $size10;
+        margin-bottom: 40px;
         letter-spacing: 1px;
+        @media screen and (max-width:950px){
+                font-size:30px;
+                margin-left:10px;
+        }
 }
 .title-p2{
         font-size:$font-size05;
@@ -63,14 +74,21 @@
         @include d-flex(flex, center, center);
         text-indent:1em;
         letter-spacing: 1px;
+        @media screen and (max-width:950px){
+                font-size:14px;
+                margin-left:10px;
+        }
 }
 .name{
         font-size:$font-size03;
         font-family:$family01;
         color:  $color11;
-        margin-top:$size09;
-        margin-left:$size47;
+        margin-top:50px;
         letter-spacing: 1px;
+        @include d-flex(flex, center, center);
+        @media screen and (max-width:950px){
+                font-size:18px;
+        }
 }
 }
 }

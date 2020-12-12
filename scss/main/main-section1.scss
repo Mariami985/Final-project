@@ -3,14 +3,33 @@
     @extend %size;
 .d-flex{
     display:flex;
+    @media screen and (max-width:950px){
+        flex-direction: column;
+    }
 .left-block{
     max-width:$size1;
     width:$size01;
     margin-top:$size2;
     float: left;
     margin-left:$size10;
+    @media screen and (max-width:540px){
+        margin-left:0;
+    }
+    @media screen and (max-width:525px){
+        max-width: 280px;
+        width: 100%;
+    }
 .section-p{
    @extend %font-size;
+   @media screen and (max-width:950px){
+       font-size:30px;
+       font-weight: bold;
+   }
+   @media screen and (max-width:680px){
+    font-size:22px;
+    font-weight: bold;
+    margin-left:10px;
+}
 }
 .line9{
     max-width:$size3;
@@ -28,6 +47,12 @@
     margin-left:$size5;
     margin-bottom: $size8;
     letter-spacing: 1px;
+    @media screen and (max-width:950px){
+        font-size:18px;
+    }
+    @media screen and (max-width:680px){
+        font-size:16px;
+}
 }
 .section-p2{
     font-size:$font-size05;
@@ -35,6 +60,13 @@
     font-family: $family01;
     margin-left:$size9;
     letter-spacing: 1px;
+    @media screen and (max-width:950px){
+        font-size:14px;
+        flex-direction: column;
+    }
+    @media screen and (max-width:680px){
+        font-size:14px;
+}
 }
 }
 .left-block::after{
@@ -47,8 +79,15 @@
     margin-left:$size3;
     max-width:$size14;
     width:$size01;
+    @media screen and (max-width:570px){
+        margin-left:0;
+    }
 .img4{
     float:left;
+    @media screen and (max-width:950px){
+        float:right;
+        margin-right:100px;
+    }
 
 .image1{
     max-width:$size04;
@@ -57,6 +96,11 @@
 }
 .img3{
     float:right;
+    @media screen and (max-width:950px){
+        margin-top:15px;
+        margin-right:100px;
+    }
+
 .image2{
     max-width:$size15;
     width:$size01;
@@ -78,10 +122,18 @@
     padding-top:$size17;
     padding-bottom:$size18;
     letter-spacing: 1px;
+    @media screen and(max-width:680px){
+        font-size:16px;
+        margin-left:10px;
+    }
 }
 .form-wraper{
     @include d-flex(flex, center, center);
     padding-bottom:$size19;
+    @media screen and (max-width:680px){
+        flex-direction: column;
+        margin-right: 100px;
+    }
 .input-wraper{
     max-width:$size20;
     width:$size01;
@@ -94,6 +146,12 @@
     color:$color01;
     text-transform:$transform01;
     letter-spacing: 1px;
+    @media screen and (max-width:680px){
+        max-width: 150px;
+        font-size: 12px;
+        margin-left: 19px;
+        margin-bottom: 10px;
+    }
 }
 .input-wraper:focus{
 	outline: none;
@@ -109,6 +167,10 @@
     color:$color01;
     text-transform:$transform02;
     letter-spacing: 1px;
+    @media screen and (max-width:680px){
+        max-width: 150px;
+        font-size: 12px;
+    }
 }
 .button-wraper:focus{
     outline:none;
