@@ -6,18 +6,18 @@
      @extend %size;
 .footer-box{
     @include d-flex(flex, center, center);
-    @media screen and (max-width:750px){
+    @media screen and (max-width:$size82){
         flex-direction: column;
     }
 .left-footer{
-    max-width: 500px;
-    width:100%;
-    @media screen and (max-width:1125px){
-        margin-left:10px;
+    max-width: $size1;
+    width:$size01;
+    @media screen and (max-width:$size71){
+        margin-left:$size11;
     }
-    @media screen and (max-width:550px){
-        max-width:280px;
-        width:100%;
+    @media screen and (max-width:$size68){
+        max-width:$size47;
+        width:$size01;
     }
 .text-h3{
     font-size:$font-size10;
@@ -26,8 +26,8 @@
     text-transform:$transform02;
     font-weight: lighter;
     letter-spacing: 1px;
-    @media screen and (max-width:950px){
-        font-size:35px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size19;
     }
 }
 .line3{
@@ -44,8 +44,8 @@
     color:$color01;
     text-transform: $transform01;
     letter-spacing: 1px;
-    @media screen and (max-width:950px){
-        font-size:15px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size20;
     }
 }
 .contact{
@@ -64,45 +64,45 @@
         a{
             color:$color10;
         }
-    @media screen and (max-width:950px){
-        font-size:14px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size04;
         }
 }
 }
 }
 .right-footer{
     margin-left:$size58;
-    margin-bottom: 110px;
-    @media screen and (max-width:750px){
+    margin-bottom: $size2;
+    @media screen and (max-width:$size82){
         margin-left:0;
-       margin-right: 80px;
+        margin-right:$size17;
     }
 .fb{
     @extend %icon;
     color:$color13;
-    @media screen and (max-width:1125px){
-        font-size:30px;
+    @media screen and (max-width:$size71){
+        font-size: $font-size17;
     }
 }
 .inst{
     @extend %icon;
     color:$color14;
-    @media screen and (max-width:1125px){
-        font-size:30px;
+    @media screen and (max-width:$size71){
+        font-size: $font-size17;
     }
 }
 .twitter{
     @extend %icon;
     color:$color15;
-    @media screen and (max-width:1125px){
-        font-size:30px;
+    @media screen and (max-width:$size71){
+        font-size: $font-size17;
     }
 }
 .youtube{
     @extend %icon;
     color:$color16;
-    @media screen and (max-width:1125px){
-        font-size:30px;
+    @media screen and (max-width:$size71){
+        font-size: $font-size17;
     }
 }
 .address{
@@ -114,8 +114,8 @@
     margin-top:$size59;
     margin-bottom: $size57;
     letter-spacing: 1px;
-    @media screen and (max-width:950px){
-        font-size:22px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size06;
     }
 }
 .line3{
@@ -134,8 +134,8 @@
 .span{
     font-size:$font-size03;
     color:$color17;
-    @media screen and (max-width:950px){
-        font-size:16px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size05;
     }
 }
 .contact-a{
@@ -143,8 +143,8 @@
     color:$color01;
     margin-left:$size11;
     text-transform:$transform03;
-    @media screen and (max-width:950px){
-        font-size:16px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size05;
     }
 }
 }
@@ -159,7 +159,7 @@
     background-color:$color18;
     padding-top:$size10;
     padding-bottom:$size10;
-    @media screen and (max-width:750px){
+    @media screen and (max-width:$size82){
         flex-direction: column;
     }
 .p-footer{
@@ -169,8 +169,8 @@
     font-weight: lighter;
     text-transform:$transform02;
     margin-right:$size23;
-    @media screen and (max-width:950px){
-        font-size:18px;
+    @media screen and (max-width:$size13){
+        font-size: $font-size15;
     }
 }
 .footer-p{
@@ -178,17 +178,15 @@
     font-family: $family01;
     color:$color01;
     text-transform:$transform03;
-    @media screen and (max-width:950px){
-        font-size:10px;
-        margin-top:10px;
-        margin-right:40px;
-        margin-bottom: 10px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size21;
+        margin:$size11 0 $size08 $size11;
     }
 }
 .footer-ul{
     @include d-flex(flex, space-between, center);
     margin-left:$size60;
-    @media screen and (max-width:750px){
+    @media screen and (max-width:$size82){
         margin-left:0;
     }
 .footer-li{
@@ -198,8 +196,8 @@
     font-family: $family01;
     color:$color01;
     text-transform:$transform02;
-    @media screen and (max-width:950px){
-        font-size:12px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size18;
     }
 }
   

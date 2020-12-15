@@ -136,7 +136,7 @@ a {
 
 .bg-header {
   background-image: url(..//img/img.jpg);
-  width: 100%;
+  background-size: cover;
   padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: center; }
@@ -229,13 +229,8 @@ a {
           font-size: 17px;
           margin-left: 0;
           margin-right: 150px;
-          transition-property: all;
-          transition-duration: 0.5s;
-          transition-timing-function: linear;
-          transition-delay: 0.2s; }
-          .bg-header .title-header .title-h1:hover {
-            color: #ED093E;
-            font-weight: bolder; } }
+          color: #ff1a1a;
+          font-weight: bolder; } }
     .bg-header .title-header .title-p1 {
       font-size: 40px;
       padding-left: 200px;
@@ -295,7 +290,13 @@ a {
           font-size: 18px; } }
       @media screen and (max-width: 680px) {
         .container .d-flex .left-block .section-p1 {
-          font-size: 16px; } }
+          font-size: 16px;
+          transition-property: all;
+          transition-duration: 0.5s;
+          transition-timing-function: linear;
+          transition-delay: 0.2s; }
+          .container .d-flex .left-block .section-p1:hover {
+            color: #ff3399; } }
     .container .d-flex .left-block .section-p2 {
       font-size: 16px;
       color: #000000;
@@ -421,7 +422,14 @@ a {
     align-items: center; }
     @media screen and (max-width: 950px) {
       .bg-section .container .section-p {
-        font-size: 35px; } }
+        font-size: 35px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .bg-section .container .section-p:hover {
+          color: #e600ac;
+          font-weight: bolder; } }
   .bg-section .container .wraper-p {
     display: flex;
     justify-content: center;
@@ -429,7 +437,14 @@ a {
     font-weight: lighter; }
     @media screen and (max-width: 950px) {
       .bg-section .container .wraper-p {
-        font-size: 18px; } }
+        font-size: 18px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .bg-section .container .wraper-p:hover {
+          color: #ff80df;
+          font-weight: bolder; } }
   .bg-section .container .box {
     display: flex;
     justify-content: space-between;
@@ -444,7 +459,8 @@ a {
       margin-bottom: 30px; }
       @media screen and (max-width: 950px) {
         .bg-section .container .box .line1 {
-          width: 30px; } }
+          max-width: 30px;
+          width: 100%; } }
     .bg-section .container .box .box1 {
       max-width: 363px;
       width: 100%;
@@ -454,7 +470,8 @@ a {
           margin-left: 10px; } }
       @media screen and (max-width: 680px) {
         .bg-section .container .box .box1 {
-          width: 250px;
+          max-width: 250px;
+          width: 100%;
           margin-bottom: 20px; } }
       .bg-section .container .box .box1 .text-h4 {
         font-size: 32px;
@@ -464,7 +481,14 @@ a {
         text-transform: capitalize; }
         @media screen and (max-width: 950px) {
           .bg-section .container .box .box1 .text-h4 {
-            font-size: 16px; } }
+            font-size: 16px;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s; }
+            .bg-section .container .box .box1 .text-h4:hover {
+              color: #e60073;
+              font-weight: bolder; } }
       .bg-section .container .box .box1 .text-p {
         text-shadow: #000000;
         margin-left: 15px; }
@@ -490,7 +514,14 @@ a {
     align-items: center; }
     @media screen and (max-width: 950px) {
       .bg-section1 .container .section-p {
-        font-size: 35px; } }
+        font-size: 35px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .bg-section1 .container .section-p:hover {
+          color: #666699;
+          font-weight: bolder; } }
   .bg-section1 .container .wraper-p {
     display: flex;
     justify-content: center;
@@ -498,12 +529,18 @@ a {
     font-weight: lighter; }
     @media screen and (max-width: 950px) {
       .bg-section1 .container .wraper-p {
-        font-size: 18px; } }
+        font-size: 18px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .bg-section1 .container .wraper-p:hover {
+          color: #8585ad; } }
   .bg-section1 .container .flex {
     padding-top: 96px;
     margin-bottom: 15px;
     display: flex; }
-    @media screen and (max-width: 1105px) {
+    @media screen and (max-width: 1106px) {
       .bg-section1 .container .flex {
         flex-direction: column; } }
     @media screen and (max-width: 1125px) {
@@ -542,7 +579,14 @@ a {
         @media screen and (max-width: 1106px) {
           .bg-section1 .container .flex .img-relative .text-h4 {
             margin-left: 10px;
-            display: block; } }
+            display: block;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s; }
+            .bg-section1 .container .flex .img-relative .text-h4:hover {
+              color: #9999ff;
+              font-weight: bolder; } }
       .bg-section1 .container .flex .img-relative .wraper-p1 {
         display: flex;
         justify-content: center;
@@ -554,7 +598,14 @@ a {
         @media screen and (max-width: 1106px) {
           .bg-section1 .container .flex .img-relative .wraper-p1 {
             margin-left: 10px;
-            display: block; } }
+            display: block;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s; }
+            .bg-section1 .container .flex .img-relative .wraper-p1:hover {
+              color: #b3b3ff;
+              font-weight: bolder; } }
       .bg-section1 .container .flex .img-relative .line1 {
         margin-top: 30px;
         margin-left: 250px;
@@ -573,13 +624,14 @@ a {
         @media screen and (max-width: 1106px) {
           .bg-section1 .container .flex .img-relative .text-p {
             margin-left: 10px;
-            width: 250px; } }
+            max-width: 250px;
+            width: 100%; } }
   .bg-section1 .container .view {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 350px;
     max-width: 150px;
     width: 100%;
     background-color: #EF2756;
@@ -620,9 +672,7 @@ a {
       .bg-section1 .container .left-right .box-left .text-h4 {
         font-size: 46px;
         margin-top: 29px;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+        margin-left: 20px; }
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-left .text-h4 {
             font-size: 35px; } }
@@ -630,25 +680,38 @@ a {
           .bg-section1 .container .left-right .box-left .text-h4 {
             margin-left: 10px;
             display: block; } }
+  @media screen and (max-width: 760px) and (max-width: 1106px) {
+    .bg-section1 .container .left-right .box-left .text-h4 {
+      margin-left: 10px;
+      display: block;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: linear;
+      transition-delay: 0.2s; }
+      .bg-section1 .container .left-right .box-left .text-h4:hover {
+        color: #9999ff;
+        font-weight: bolder; } }
       .bg-section1 .container .left-right .box-left .wraper-p1 {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+        margin-left: 50px; }
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-left .wraper-p1 {
             font-size: 18px; } }
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 815px) {
           .bg-section1 .container .left-right .box-left .wraper-p1 {
             margin-left: 10px;
-            display: block; } }
+            display: block;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s; }
+            .bg-section1 .container .left-right .box-left .wraper-p1:hover {
+              color: #b3b3ff;
+              font-weight: bolder; } }
       .bg-section1 .container .left-right .box-left .line1 {
         margin-top: 30px;
-        margin-left: 228px;
+        margin-left: 100px;
         margin-bottom: 30px; }
-        @media screen and (max-width: 970px) {
-          .bg-section1 .container .left-right .box-left .line1 {
-            margin-left: 200px; } }
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 815px) {
           .bg-section1 .container .left-right .box-left .line1 {
             margin-left: 10px; } }
       .bg-section1 .container .left-right .box-left .text-p {
@@ -659,7 +722,7 @@ a {
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-left .text-p {
             font-size: 16px; } }
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 815px) {
           .bg-section1 .container .left-right .box-left .text-p {
             margin-left: 10px;
             margin-bottom: 20px; } }
@@ -683,37 +746,44 @@ a {
       .bg-section1 .container .left-right .box-right .text-h4 {
         font-size: 46px;
         margin-top: 28px;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+        margin-left: 20px; }
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-right .text-h4 {
             font-size: 35px; } }
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 815px) {
           .bg-section1 .container .left-right .box-right .text-h4 {
-            margin-left: 10px;
-            display: block; } }
+            margin-left: 20px;
+            display: block;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s; }
+            .bg-section1 .container .left-right .box-right .text-h4:hover {
+              color: #9999ff;
+              font-weight: bolder; } }
       .bg-section1 .container .left-right .box-right .wraper-p1 {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+        margin-left: 50px; }
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-right .wraper-p1 {
             font-size: 18px; } }
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 815px) {
           .bg-section1 .container .left-right .box-right .wraper-p1 {
-            margin-left: 10px;
-            display: block; } }
+            margin-left: 20px;
+            display: block;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s; }
+            .bg-section1 .container .left-right .box-right .wraper-p1:hover {
+              color: #b3b3ff;
+              font-weight: bolder; } }
       .bg-section1 .container .left-right .box-right .line1 {
         margin-top: 30px;
-        margin-left: 228px;
+        margin-left: 100px;
         margin-bottom: 30px; }
-        @media screen and (max-width: 970px) {
+        @media screen and (max-width: 815px) {
           .bg-section1 .container .left-right .box-right .line1 {
-            margin-left: 200px; } }
-        @media screen and (max-width: 760px) {
-          .bg-section1 .container .left-right .box-right .line1 {
-            margin-left: 10px; } }
+            margin-left: 20px; } }
       .bg-section1 .container .left-right .box-right .text-p {
         max-width: 350px;
         width: 100%;
@@ -722,9 +792,9 @@ a {
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-right .text-p {
             font-size: 16px; } }
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 815px) {
           .bg-section1 .container .left-right .box-right .text-p {
-            margin-left: 10px; } }
+            margin-left: 20px; } }
         @media screen and (max-width: 380px) {
           .bg-section1 .container .left-right .box-right .text-p {
             max-width: 280px;
@@ -735,7 +805,7 @@ a {
     align-items: center; }
     @media screen and (max-width: 815px) {
       .bg-section1 .container .view-more {
-        margin-left: 10px;
+        margin-left: 20px;
         max-width: 260px;
         width: 100%; } }
     .bg-section1 .container .view-more .view-more-detail a {
@@ -845,7 +915,14 @@ a {
   align-items: center; }
   @media screen and (max-width: 950px) {
     .container .section-p {
-      font-size: 35px; } }
+      font-size: 35px;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: linear;
+      transition-delay: 0.2s; }
+      .container .section-p:hover {
+        color: #800028;
+        font-weight: bolder; } }
 
 .container .wraper-p {
   display: flex;
@@ -855,7 +932,13 @@ a {
   @media screen and (max-width: 950px) {
     .container .wraper-p {
       font-size: 18px;
-      margin-left: 10px; } }
+      margin-left: 10px;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: linear;
+      transition-delay: 0.2s; }
+      .container .wraper-p:hover {
+        color: #b30039; } }
 
 .container .block {
   display: flex;
@@ -887,7 +970,14 @@ a {
     @media screen and (max-width: 1125px) {
       .container .block .block1 .text1-h4 {
         font-size: 20px;
-        margin-left: 10px; } }
+        margin-left: 10px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .container .block .block1 .text1-h4:hover {
+          color: #e60049;
+          font-weight: bold; } }
   .container .block .block1 .line1 {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -960,7 +1050,7 @@ a {
       @media screen and (max-width: 1125px) {
         .footer-wraper .container .footer-box .left-footer {
           margin-left: 10px; } }
-      @media screen and (max-width: 550px) {
+      @media screen and (max-width: 570px) {
         .footer-wraper .container .footer-box .left-footer {
           max-width: 280px;
           width: 100%; } }
@@ -1012,7 +1102,7 @@ a {
               font-size: 14px; } }
     .footer-wraper .container .footer-box .right-footer {
       margin-left: 174px;
-      margin-bottom: 110px; }
+      margin-bottom: 109px; }
       @media screen and (max-width: 750px) {
         .footer-wraper .container .footer-box .right-footer {
           margin-left: 0;
@@ -1102,9 +1192,7 @@ a {
     @media screen and (max-width: 950px) {
       .footer .footer-p {
         font-size: 10px;
-        margin-top: 10px;
-        margin-right: 40px;
-        margin-bottom: 10px; } }
+        margin: 10px 0 40px 10px; } }
   .footer .footer-ul {
     display: flex;
     justify-content: space-between;

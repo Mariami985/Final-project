@@ -1,33 +1,33 @@
 // size
-$size01:100%;          $size11:10px;        $size21:22px;     $size31:341px;     $size1:500px;   $soze41:61px;     $size51:340px;   $size61:90px;
-$size02:650px;         $size12:774px;       $size22:266px;    $size32:130px;     $size2:109px;   $size42:28px;     $size52:341px;   $size62:140px;
-$size03:252px;         $size13:950px;       $size23:50px;     $size33:5px;       $size3:100px;   $size43:425px;    $size53:180px;   $size63:680px;
-$size04:250px;         $size14:450px;       $size24:510px;    $size34:10px;      $size4:2px;     $size44:101px;    $size54:85px;
-$size05:200px;         $size15:300px;       $size25:71px;     $size35:7px;       $size5:26px;    $size45:104px;    $size55:429px;
-$size06:150px;         $size16:112px;       $size26:363px;    $size36:1170px;    $size6:15px;    $size46:700px;    $size56:33px;
-$size07:60px;          $size17:80px;        $size27:175px;    $size37:99px;      $size7:36px;    $size47:280px;    $size57:18px;
-$size08:40px;          $size18:29px;        $size28:554px;    $size38:228px;     $size8:23px;    $size48:360px;    $size58:174px;
-$size09:30px;          $size19:68px;        $size29:420px;    $size39:508px;     $size9:96px;    $size49:170px;    $size59:49px;
-$size10:20px;          $size20:460px;       $size30:558px;    $size40:16px;      $size010:38px;  $size50:80px;     $size60:350px;
+$size01:100%;          $size11:10px;        $size21:22px;     $size31:341px;     $size1:500px;   $soze41:61px;     $size51:340px;   $size61:90px;   $size71:1125px;    $size81:13px;
+$size02:650px;         $size12:774px;       $size22:266px;    $size32:130px;     $size2:109px;   $size42:28px;     $size52:341px;   $size62:140px;  $size72:915px;     $size82:750px;
+$size03:252px;         $size13:950px;       $size23:50px;     $size33:5px;       $size3:100px;   $size43:425px;    $size53:180px;   $size63:680px;  $size73:815px;
+$size04:250px;         $size14:450px;       $size24:510px;    $size34:10px;      $size4:2px;     $size44:101px;    $size54:85px;    $size64:280px;  $size74:970px;
+$size05:200px;         $size15:300px;       $size25:71px;     $size35:7px;       $size5:26px;    $size45:104px;    $size55:429px;   $size65:19px;   $size75:760px;
+$size06:150px;         $size16:112px;       $size26:363px;    $size36:1170px;    $size6:15px;    $size46:700px;    $size56:33px;    $size66:525px;  $size76:380px;
+$size07:60px;          $size17:80px;        $size27:175px;    $size37:99px;      $size7:36px;    $size47:280px;    $size57:18px;    $size67:540px;  $size77:530px;
+$size08:40px;          $size18:29px;        $size28:554px;    $size38:228px;     $size8:23px;    $size48:360px;    $size58:174px;   $size68:570px;  $size78:410px;
+$size09:30px;          $size19:68px;        $size29:420px;    $size39:508px;     $size9:96px;    $size49:170px;    $size59:49px;    $size69:1080px; $size79:400px;
+$size10:20px;          $size20:460px;       $size30:558px;    $size40:16px;      $size010:38px;  $size50:80px;     $size60:350px;   $size70:1106px; $size80:260px;
 
 // font-size
-$font-size01:100px;    $font-size11:46px;
+$font-size01:100px;    $font-size11:46px;  $font-size21:10px;
 $font-size02:40px;     $font-size12:70px;
 $font-size03:20px;     $font-size13:25px;
 $font-size04:14px;     $font-size14:13px;
 $font-size05:16px;     $font-size15:18px;
 $font-size06:22px;     $font-size16:17px;
-$font-size07:24px;
-$font-size08:28px;
-$font-size09:32px;
-$font-size10:50px;
+$font-size07:24px;     $font-size17:30px;
+$font-size08:28px;     $font-size18:12px;
+$font-size09:32px;     $font-size19:35px;
+$font-size10:50px;     $font-size20:15px;
 
 
 // color
-$color01:#ffffff;    $color06:#EE2655;    $color10:#EF2756;     $color14:#660022;  $color18:#D51945;
-$color02:#ED093E;    $color07:#F85B80;    $color11:#663d00;     $color15:#0052cc;
-$color03:#000000;    $color08:#707070;    $color12:#ff9900;     $color16:#e60000;
-$color05:#727272;    $color09:#F7F7F7;    $color13:#000099;     $color17:#e6e6e6;
+$color01:#ffffff;    $color06:#EE2655;    $color10:#EF2756;     $color14:#660022;  $color18:#D51945;  $color22:#ff80df;   $color27:#e60049;
+$color02:#ED093E;    $color07:#F85B80;    $color11:#663d00;     $color15:#0052cc;  $color19:#ff1a1a;  $color24:#e60073;   $color28:#b30039;
+$color03:#000000;    $color08:#707070;    $color12:#ff9900;     $color16:#e60000;  $color20:#ff3399;  $color25:#9999ff;   $color29:#800028;
+$color05:#727272;    $color09:#F7F7F7;    $color13:#000099;     $color17:#e6e6e6;  $color21:#e600ac;  $color26:#b3b3ff;
 
 // text-transform
 $transform01:capitalize;

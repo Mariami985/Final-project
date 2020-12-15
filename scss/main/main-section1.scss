@@ -3,7 +3,7 @@
     @extend %size;
 .d-flex{
     display:flex;
-    @media screen and (max-width:950px){
+    @media screen and (max-width:$size13){
         flex-direction: column;
     }
 .left-block{
@@ -12,23 +12,23 @@
     margin-top:$size2;
     float: left;
     margin-left:$size10;
-    @media screen and (max-width:540px){
+    @media screen and (max-width:$size67){
         margin-left:0;
     }
-    @media screen and (max-width:525px){
-        max-width: 280px;
-        width: 100%;
+    @media screen and (max-width:$size66){
+        max-width: $size64;
+        width: $size01;
     }
 .section-p{
    @extend %font-size;
-   @media screen and (max-width:950px){
-       font-size:30px;
+   @media screen and (max-width:$size13){
+       font-size:$font-size17;
        font-weight: bold;
    }
-   @media screen and (max-width:680px){
-    font-size:22px;
+   @media screen and (max-width:$size63){
+    font-size:$font-size06;
     font-weight: bold;
-    margin-left:10px;
+    margin-left:$size11;
 }
 }
 .line9{
@@ -47,11 +47,15 @@
     margin-left:$size5;
     margin-bottom: $size8;
     letter-spacing: 1px;
-    @media screen and (max-width:950px){
-        font-size:18px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size15;
     }
-    @media screen and (max-width:680px){
-        font-size:16px;
+    @media screen and (max-width:$size63){
+        font-size:$font-size05;
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            color:$color20;
+        }
 }
 }
 .section-p2{
@@ -60,12 +64,12 @@
     font-family: $family01;
     margin-left:$size9;
     letter-spacing: 1px;
-    @media screen and (max-width:950px){
-        font-size:14px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size04;
         flex-direction: column;
     }
-    @media screen and (max-width:680px){
-        font-size:14px;
+    @media screen and (max-width:$size63){
+        font-size:$font-size04;
 }
 }
 }
@@ -79,14 +83,14 @@
     margin-left:$size3;
     max-width:$size14;
     width:$size01;
-    @media screen and (max-width:570px){
+    @media screen and (max-width:$size68){
         margin-left:0;
     }
 .img4{
     float:left;
-    @media screen and (max-width:950px){
+    @media screen and (max-width:$size13){
         float:right;
-        margin-right:100px;
+        margin-right:$size3;
     }
 
 .image1{
@@ -96,9 +100,9 @@
 }
 .img3{
     float:right;
-    @media screen and (max-width:950px){
-        margin-top:15px;
-        margin-right:100px;
+    @media screen and (max-width:$size13){
+        margin-top:$size6;
+        margin-right:$size3;
     }
 
 .image2{
@@ -122,17 +126,17 @@
     padding-top:$size17;
     padding-bottom:$size18;
     letter-spacing: 1px;
-    @media screen and(max-width:680px){
-        font-size:16px;
-        margin-left:10px;
+    @media screen and(max-width:$size63){
+        font-size:$font-size05;
+        margin-left:$size11;
     }
 }
 .form-wraper{
     @include d-flex(flex, center, center);
     padding-bottom:$size19;
-    @media screen and (max-width:680px){
+    @media screen and (max-width:$size63){
         flex-direction: column;
-        margin-right: 100px;
+        margin-right:$size3;
     }
 .input-wraper{
     max-width:$size20;
@@ -146,11 +150,11 @@
     color:$color01;
     text-transform:$transform01;
     letter-spacing: 1px;
-    @media screen and (max-width:680px){
-        max-width: 150px;
-        font-size: 12px;
-        margin-left: 19px;
-        margin-bottom: 10px;
+    @media screen and (max-width:$size63){
+        max-width: $size06;
+        font-size: $font-size18;
+        margin-left:$size65;
+        margin-bottom: $size11;
     }
 }
 .input-wraper:focus{
@@ -167,9 +171,9 @@
     color:$color01;
     text-transform:$transform02;
     letter-spacing: 1px;
-    @media screen and (max-width:680px){
-        max-width: 150px;
-        font-size: 12px;
+    @media screen and (max-width:$size63){
+        max-width: $size06;
+        font-size: $font-size18;
     }
 }
 .button-wraper:focus{

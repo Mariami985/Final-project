@@ -4,15 +4,20 @@
     @extend %size01;
     margin-left: $size24;
     margin-bottom: $size23;
-    @media screen and (max-width:1080px){
+    @media screen and (max-width:$size69){
         display:none;
     }
 }
 .section-p{
     @extend %font-size;
     @include d-flex(flex, center, center);
-    @media screen and (max-width:950px){
-        font-size:35px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size19;
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            color:$color29;
+            font-weight: bolder;
+        }
     }
    
     }
@@ -20,31 +25,32 @@
     @extend %font-size01;
     @include d-flex(flex, center, center);
     font-weight:lighter;
-    @media screen and (max-width:950px){
-        font-size:18px;
-        margin-left:10px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size15;
+        margin-left:$size11;
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            color:$color28;
+        }
     }      
     }
 .block{
     @include d-flex(flex, center, center);
     margin-top: $size19;
     margin-bottom:$size50;
-    @media screen and (max-width:1080px){
+    @media screen and (max-width:$size69){
         flex-flow: wrap;
     }
 .block1{
-    // max-width:$size48;
-    // width:$size01;
-    // margin-left: $size10;
 .image8{
-    @media screen and (max-width:650px){
-        width:250px;
-        margin-left:10px;
+    @media screen and (max-width:$size02){
+        width:$size04;
+        margin-left:$size11;
     }
 }
-    @media screen and (max-width:1080px){
-        margin-top:50px;
-        margin-right:30px;
+    @media screen and (max-width:$size69){
+        margin-top:$size23;
+        margin-right:$size09;
     }
 .text1-h4{
     font-size:$font-size13;
@@ -56,17 +62,22 @@
     max-width:$size51;
     width:$size01;
     letter-spacing: 1px;
-    @media screen and (max-width:1125px){
-        font-size:20px;
-        margin-left:10px;
+    @media screen and (max-width:$size71){
+        font-size:$font-size03;
+        margin-left:$size11;
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            color:$color27;
+            font-weight: bold;
+        }
     }
     }
 .line1{
     @extend %size01;
     margin-top:$size09;
     margin-bottom:$size09;
-    @media screen and (max-width:1125px){
-        margin-left:10px;
+    @media screen and (max-width:$size71){
+        margin-left:$size11;
     }
     }
 .text-p{
@@ -75,9 +86,9 @@
     @extend %text-p;
     text-shadow: $color03;
     margin-left:$size6;
-    @media screen and (max-width:1125px){
-        font-size:14px;
-        margin-left:13px;
+    @media screen and (max-width:$size71){
+        font-size:$font-size04;
+        margin-left:$size81;
     }
     }
 .view{
@@ -88,8 +99,8 @@
     width:$size01;
     background-color:$color10;
     letter-spacing: 1px; 
-    @media screen and (max-width:650px){
-        margin-left:10px;
+    @media screen and (max-width:$size02){
+        margin-left:$size11;
     }
 .view-detail{
     font-size:$font-size05;
@@ -99,8 +110,8 @@
         a{
             color:$color01;
         }
-    @media screen and (max-width:1125px){
-        font-size:12px;
+    @media screen and (max-width:$size71){
+        font-size:$font-size18;
     }
     }
 .arrow{
@@ -113,16 +124,16 @@
 .view-more{
     @extend %view-more;
     @include d-flex(flex, center, center);
-    @media screen and (max-width:1080px){
-        margin-left:10px;
+    @media screen and (max-width:$size69){
+        margin-left:$size11;
     }
 .view-more-detail{
     @extend %view-more1;
     a{
         color:$color10;
     }
-    @media screen and (max-width:700px){
-        font-size:12px;
+    @media screen and (max-width:$size46){
+        font-size:$font-size18;
     }
 }
 .arrow{

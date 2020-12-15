@@ -7,50 +7,62 @@
     @extend %size01;
     margin-left:$size24;
     margin-bottom:$size09; 
-    @media screen and (max-width:1080px){
+    @media screen and (max-width:$size69){
         display:none;
     }
 }
 .section-p{
     @extend %font-size;
     @include d-flex(flex, center, center);
-    @media screen and (max-width:950px){
-        font-size:35px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size19;
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            color:$color21;
+            font-weight: bolder;
+        }
     }
 }
 .wraper-p{
    @extend %font-size01;
    @include d-flex(flex, center, center);
     font-weight:lighter; 
-    @media screen and (max-width:950px){
-        font-size:18px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size15;
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            color:$color22;
+            font-weight: bolder;
+        }
     }
 }
 .box{
     @include d-flex(flex, space-between, center);
     margin-top:$size25;
     letter-spacing: 1px;
-    @media screen and (max-width:680px){
+    @media screen and (max-width:$size63){
         flex-direction:column;
     }
 .line1{
     @extend %size01;
     margin-top:$size09;
     margin-bottom:$size09;
-    @media screen and (max-width:950px){
-        width:30px;
+    @media screen and (max-width:$size13){
+        max-width:$size09;
+        width:$size01;
     }
 }
 .box1{
     max-width: $size26;
     width:$size01;
     margin-right:$size10;
-    @media screen and (max-width:1080px){
-        margin-left:10px;
+    @media screen and (max-width:$size69){
+        margin-left:$size11;
     }
-    @media screen and (max-width:680px){
-        width: 250px;
-        margin-bottom: 20px;
+    @media screen and (max-width:$size63){
+        max-width: $size04;
+        width:$size01;
+        margin-bottom:$size10;
     }
 .text-h4{
     font-size:$font-size09;
@@ -58,16 +70,21 @@
     font-weight: 300;
     color:$color03;
     text-transform: $transform01;
-    @media screen and (max-width:950px){
-        font-size:16px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size05;
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            color:$color24;
+            font-weight: bolder;
+        }
     }
 }
 .text-p{
     @extend %text-p;
     text-shadow:$color03;
     margin-left: $size6;
-    @media screen and (max-width:950px){
-        font-size:14px;
+    @media screen and (max-width:$size13){
+        font-size:$font-size04;
     }
 }
 }
