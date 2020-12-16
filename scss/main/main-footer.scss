@@ -6,7 +6,7 @@
      @extend %size;
 .footer-box{
     @include d-flex(flex, center, center);
-    @media screen and (max-width:$size82){
+    @media screen and (max-width:770px){
         flex-direction: column;
     }
 .left-footer{
@@ -73,10 +73,11 @@
 .right-footer{
     margin-left:$size58;
     margin-bottom: $size2;
-    @media screen and (max-width:$size82){
+    @media screen and (max-width:770px){
         margin-left:0;
-        margin-right:$size17;
+        margin-right:80px;
     }
+    
 .fb{
     @extend %icon;
     color:$color13;
@@ -159,7 +160,7 @@
     background-color:$color18;
     padding-top:$size10;
     padding-bottom:$size10;
-    @media screen and (max-width:$size82){
+    @media screen and (max-width:770px){
         flex-direction: column;
     }
 .p-footer{
@@ -180,13 +181,15 @@
     text-transform:$transform03;
     @media screen and (max-width:$size13){
         font-size:$font-size21;
-        margin:$size11 0 $size08 $size11;
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-right:50px;
     }
 }
 .footer-ul{
     @include d-flex(flex, space-between, center);
     margin-left:$size60;
-    @media screen and (max-width:$size82){
+    @media screen and (max-width:770px){
         margin-left:0;
     }
 .footer-li{

@@ -232,11 +232,11 @@
     }
 }
 .text-p{
-    max-width:$size60;
+    max-width:300px;
     width:$size01;
     @extend %text-p;
     text-indent:1em;
-    margin-left:$size40 ;
+    margin-left:$size11;
     @media screen and (max-width:$size74){
         font-size:$font-size05;
     }
@@ -309,11 +309,11 @@
     }
 }
 .text-p{
-    max-width: $size60;
+    max-width:300px;
     width:$size01;
     @extend %text-p;
     text-indent:1em;
-    margin-left:$size40; 
+    margin-left:$size11; 
     @media screen and (max-width:$size74){
         font-size:$font-size05;
     } 

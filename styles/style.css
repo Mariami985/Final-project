@@ -715,10 +715,10 @@ a {
           .bg-section1 .container .left-right .box-left .line1 {
             margin-left: 10px; } }
       .bg-section1 .container .left-right .box-left .text-p {
-        max-width: 350px;
+        max-width: 300px;
         width: 100%;
         text-indent: 1em;
-        margin-left: 16px; }
+        margin-left: 10px; }
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-left .text-p {
             font-size: 16px; } }
@@ -785,10 +785,10 @@ a {
           .bg-section1 .container .left-right .box-right .line1 {
             margin-left: 20px; } }
       .bg-section1 .container .left-right .box-right .text-p {
-        max-width: 350px;
+        max-width: 300px;
         width: 100%;
         text-indent: 1em;
-        margin-left: 16px; }
+        margin-left: 10px; }
         @media screen and (max-width: 970px) {
           .bg-section1 .container .left-right .box-right .text-p {
             font-size: 16px; } }
@@ -1041,7 +1041,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center; }
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 770px) {
       .footer-wraper .container .footer-box {
         flex-direction: column; } }
     .footer-wraper .container .footer-box .left-footer {
@@ -1103,7 +1103,7 @@ a {
     .footer-wraper .container .footer-box .right-footer {
       margin-left: 174px;
       margin-bottom: 109px; }
-      @media screen and (max-width: 750px) {
+      @media screen and (max-width: 770px) {
         .footer-wraper .container .footer-box .right-footer {
           margin-left: 0;
           margin-right: 80px; } }
@@ -1171,7 +1171,7 @@ a {
   background-color: #D51945;
   padding-top: 20px;
   padding-bottom: 20px; }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 770px) {
     .footer {
       flex-direction: column; } }
   .footer .p-footer {
@@ -1192,13 +1192,15 @@ a {
     @media screen and (max-width: 950px) {
       .footer .footer-p {
         font-size: 10px;
-        margin: 10px 0 40px 10px; } }
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px; } }
   .footer .footer-ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 350px; }
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 770px) {
       .footer .footer-ul {
         margin-left: 0; } }
     .footer .footer-ul .footer-li {
