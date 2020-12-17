@@ -137,6 +137,7 @@ a {
 .bg-header {
   background-image: url(..//img/img.jpg);
   background-size: cover;
+  height: 100vh;
   padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: center; }
@@ -330,7 +331,14 @@ a {
           margin-right: 100px; } }
       .container .d-flex .right-block .img4 .image1 {
         max-width: 250px;
-        width: 100%; }
+        width: 100%;
+        filter: blur(1px);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .container .d-flex .right-block .img4 .image1:hover {
+          filter: none; }
     .container .d-flex .right-block .img3 {
       float: right; }
       @media screen and (max-width: 950px) {
@@ -339,7 +347,14 @@ a {
           margin-right: 100px; } }
       .container .d-flex .right-block .img3 .image2 {
         max-width: 300px;
-        width: 100%; }
+        width: 100%;
+        filter: blur(1px);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .container .d-flex .right-block .img3 .image2:hover {
+          filter: none; }
 
 .wraper {
   background-color: #EE2655;
@@ -545,7 +560,14 @@ a {
         flex-direction: column; } }
     @media screen and (max-width: 1125px) {
       .bg-section1 .container .flex .image4 {
-        width: 100%; } }
+        width: 100%;
+        filter: blur(1px);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .bg-section1 .container .flex .image4:hover {
+          filter: none; } }
     .bg-section1 .container .flex .img-relative {
       position: absolute;
       max-width: 554px;
@@ -668,7 +690,14 @@ a {
           max-width: 400px;
           width: 100%; } }
       .bg-section1 .container .left-right .box-left .image5 {
-        width: 100%; }
+        width: 100%;
+        filter: blur(1px);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .bg-section1 .container .left-right .box-left .image5:hover {
+          filter: none; }
       .bg-section1 .container .left-right .box-left .text-h4 {
         font-size: 46px;
         margin-top: 29px;
@@ -742,7 +771,14 @@ a {
           margin-top: 20px;
           margin-left: 0; } }
       .bg-section1 .container .left-right .box-right .image6 {
-        width: 100%; }
+        width: 100%;
+        filter: blur(1px);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s; }
+        .bg-section1 .container .left-right .box-right .image6:hover {
+          filter: none; }
       .bg-section1 .container .left-right .box-right .text-h4 {
         font-size: 46px;
         margin-top: 28px;
@@ -949,10 +985,18 @@ a {
   @media screen and (max-width: 1080px) {
     .container .block {
       flex-flow: wrap; } }
-  @media screen and (max-width: 650px) {
-    .container .block .block1 .image8 {
-      width: 250px;
-      margin-left: 10px; } }
+  .container .block .block1 .image8 {
+    filter: blur(1px);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s; }
+    .container .block .block1 .image8:hover {
+      filter: none; }
+    @media screen and (max-width: 650px) {
+      .container .block .block1 .image8 {
+        width: 250px;
+        margin-left: 10px; } }
   @media screen and (max-width: 1080px) {
     .container .block .block1 {
       margin-top: 50px;

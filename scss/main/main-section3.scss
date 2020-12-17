@@ -49,6 +49,12 @@
 .image4{
     @media screen and(max-width:$size71){
         width:$size01;
+        filter: blur(1px);
+        @include hover-effect (all, 0.5s, linear, 0.2s);
+        &:hover{
+            filter:none;
+        }
+    
     }
 }
 .img-relative{
@@ -183,6 +189,11 @@
     }
 .image5{
     width: $size01;
+    filter: blur(1px);
+    @include hover-effect (all, 0.5s, linear, 0.2s);
+    &:hover{
+        filter:none;
+    }
 }
 .text-h4{
     font-size:$font-size11;
@@ -264,6 +275,11 @@
 }
 .image6{
     width: $size01;
+    filter: blur(1px);
+    @include hover-effect (all, 0.5s, linear, 0.2s);
+    &:hover{
+        filter:none;
+    }
 }
 .text-h4{
     font-size:$font-size11;

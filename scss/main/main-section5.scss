@@ -43,6 +43,11 @@
     }
 .block1{
 .image8{
+    filter: blur(1px);
+    @include hover-effect (all, 0.5s, linear, 0.2s);
+    &:hover{
+        filter:none;
+    }
     @media screen and (max-width:$size02){
         width:$size04;
         margin-left:$size11;

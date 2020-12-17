@@ -96,6 +96,11 @@
 .image1{
     max-width:$size04;
     width:$size01;
+    filter: blur(1px);
+    @include hover-effect (all, 0.5s, linear, 0.2s);
+    &:hover{
+        filter:none;
+    }
 }
 }
 .img3{
@@ -108,6 +113,11 @@
 .image2{
     max-width:$size15;
     width:$size01;
+    filter: blur(1px);
+    @include hover-effect (all, 0.5s, linear, 0.2s);
+    &:hover{
+        filter:none;
+    }
 }
 }
 }
