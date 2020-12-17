@@ -55,6 +55,7 @@
         @include hover-effect (all, 0.5s, linear, 0.2s);
         &:hover{
             color:$color20;
+            transform: scale(1.05);
         }
 }
 }
@@ -96,10 +97,11 @@
 .image1{
     max-width:$size04;
     width:$size01;
-    filter: blur(1px);
+    filter: blur(2px);
     @include hover-effect (all, 0.5s, linear, 0.2s);
     &:hover{
         filter:none;
+        transform: scale(1.05);
     }
 }
 }
@@ -113,10 +115,11 @@
 .image2{
     max-width:$size15;
     width:$size01;
-    filter: blur(1px);
+    filter: blur(2px);
     @include hover-effect (all, 0.5s, linear, 0.2s);
     &:hover{
         filter:none;
+        transform: scale(1.05);
     }
 }
 }
@@ -160,6 +163,10 @@
     color:$color01;
     text-transform:$transform01;
     letter-spacing: 1px;
+    @include hover-effect (all, 0.5s, linear, 0.2s);
+    &:hover{
+        transform: scale(1.05);
+    }
     @media screen and (max-width:$size63){
         max-width: $size06;
         font-size: $font-size18;
@@ -181,6 +188,10 @@
     color:$color01;
     text-transform:$transform02;
     letter-spacing: 1px;
+    @include hover-effect (all, 0.5s, linear, 0.2s);
+    &:hover{
+        transform: scale(1.05);
+    }
     @media screen and (max-width:$size63){
         max-width: $size06;
         font-size: $font-size18;
