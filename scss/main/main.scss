@@ -68,6 +68,8 @@
             @include hover-effect (all, 0.5s, linear, 0.2s);
             &:hover{
                 color:$color02;
+                transform: scale(1.5);
+                
             }
         }
     }
@@ -109,6 +111,10 @@
             margin-right:$size06;
             color:$color19;
             font-weight: bolder;
+            @include hover-effect (all, 0.5s, linear, 0.2s);
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         
     }

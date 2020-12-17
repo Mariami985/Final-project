@@ -197,7 +197,8 @@ a {
         transition-timing-function: linear;
         transition-delay: 0.2s; }
         .bg-header .burger-icon:hover {
-          color: #ED093E; } }
+          color: #ED093E;
+          transform: scale(1.5); } }
   .bg-header .title-header {
     margin-top: 252px;
     margin-left: 150px;
@@ -231,7 +232,13 @@ a {
           margin-left: 0;
           margin-right: 150px;
           color: #ff1a1a;
-          font-weight: bolder; } }
+          font-weight: bolder;
+          transition-property: all;
+          transition-duration: 0.5s;
+          transition-timing-function: linear;
+          transition-delay: 0.2s; }
+          .bg-header .title-header .title-h1:hover {
+            transform: scale(1.5); } }
     .bg-header .title-header .title-p1 {
       font-size: 40px;
       padding-left: 200px;
